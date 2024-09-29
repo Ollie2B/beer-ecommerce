@@ -1,0 +1,36 @@
+.navbar-container {
+  display: flex;
+  width: 327px;
+  height: 40px;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.navbar-menu-icon {
+  display: flex;
+  height: 24px;
+  font-size: 24px;
+  width: 24px;
+  color: #0F0D23;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-user {
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+.navbar-user-icon {
+  height: 47px;
+  width: 47px;
+}
