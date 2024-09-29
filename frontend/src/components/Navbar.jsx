@@ -1,17 +1,22 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import './Navbar.css'
 
-const Navbar = () => {
+const NavbarMenu = () => {
+  const navigateTo = useNavigate();
   return (
     <div className="navbar-container">
-      <div className='navbar-menu'>
-        <span className='navbar-menu-icon'>≡</span>
-      </div>   
-      <div className='navbar-user'>
-        <img src='/default-user.jpg' alt='default-user' className='navbar-user-icon'/>
+      <button className='navbar-button' onClick={()=> navigateTo(`/products`)}>
+        <img src='/icon-back.svg' alt='back'/>
+      </button>
+      <div className='navbar-title'>
+        Detail
+      </div>
+      <div className='navbar-button'>
+        <img src='/icon-dots.svg' alt='options' className='navbar-options'/>
       </div>
     </div>
   )
 }
 
-export default Navbar
+export default NavbarMenu

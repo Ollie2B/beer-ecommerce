@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
       <div className='product-card-footer'>
         <span className='product-price'>{centsFormatter(product.skus[0].price)}</span>
         <button className='add-button' onClick={()=> navigateTo(`/product/${product.id}-${formattedBrand}`)}>
-          +
+          <img src='/icon-plus.svg' alt='add'/>
         </button>
       </div>    
     </div>
