@@ -20,10 +20,10 @@ The app uses a **Node.js** backend that serves product and stock information via
 
 ## Project Structure
 ```
-├── data # Node.js backend code <br/>
+├── data # Node.js backend code
 │   ├── products # data returned by get /products
 │   └── stock-price # data returned by get /stock-price/:sku
-└── server # main entry point and endpoints definition<br/>
+└── server # main entry point and endpoints definition
 ```
 
 ---

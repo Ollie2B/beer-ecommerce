@@ -17,23 +17,23 @@ The app uses a **Node.js** backend that serves product and stock information via
 
 ## Project Structure
 ```
-├──public # icons and assets <br/>
-├── src # main <br/>
-│   ├── components # react components <br/>
-│   │   ├── Navbar # navigation component, with back and options buttons <br/>
-│   │   ├── NavbarMenu # navigation component, with menu button and user icon <br/>
-│   │   ├── ProductCard # product miniature for main list <br/>
-│   │   └── ProductList # main list of products <br/>
-│   ├── helpers # utilities <br/>
-│   │   └── centsFormatter # convert prices <br/>
-│   └── pages # react pages <br/>
-│       ├── ProductDetailsPage # displays product details, options and actions <br/>
-│       └── ProductListingPage # displays list of products, with name and price <br/>
-├── App # React app <br/>
-├── main # React main <br/>
-├── style # global styles <br/>
-├── eslint.config # setup linter <br/>
-└── vite.config # setup vite <br/>
+├──public # icons and assets
+├── src # main
+│   ├── components # react components
+│   │   ├── Navbar # navigation component, with back and options buttons
+│   │   ├── NavbarMenu # navigation component, with menu button and user icon
+│   │   ├── ProductCard # product miniature for main list
+│   │   └── ProductList # main list of products
+│   ├── helpers # utilities
+│   │   └── centsFormatter # convert prices
+│   └── pages # react pages
+│       ├── ProductDetailsPage # displays product details, options and actions
+│       └── ProductListingPage # displays list of products, with name and price
+├── App # React app
+├── main # React main
+├── style # global styles
+├── eslint.config # setup linter
+└── vite.config # setup vite
 ```
 
 ---
