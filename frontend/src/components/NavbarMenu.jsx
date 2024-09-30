@@ -1,16 +1,16 @@
-import React from 'react'
 import './NavbarMenu.css'
 
 const NavbarMenu = () => {
+  const openMenu = () => {
+    window.alert('You opened the menu')
+  }
+
   return (
     <div className="navbarmenu-container">
-      <div className='navbarmenu-menu'>
-        {/* <span className='navbarmenu-menu-icon'>≡</span> */}
-        <img src='/menu-icon.svg' alt='menu'/>
-      </div>   
-      <div className='navbarmenu-user'>
-        <img src='/default-user.jpg' alt='default-user' className='navbarmenu-user-icon'/>
-      </div>
+      <button className="navbarmenu-menu" onClick={() => openMenu()}>
+        <img src="/menu-icon.svg" alt='menu'/>
+      </button>   
+      <img src="/default-user.jpg" alt="default-user" className="navbarmenu-user-icon"/>
     </div>
   )
 }

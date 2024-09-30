@@ -1,8 +1,17 @@
 body {
-  background: #FAFAFA;
+  background: #838383;
   font-family: "DM Sans";
   color: #323232;
   margin: 0;
+}
+
+#root {
+  background: #FAFAFA;
+  margin: auto;
+  max-width: 375px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 h1 {

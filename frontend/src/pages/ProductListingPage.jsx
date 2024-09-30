@@ -1,4 +1,3 @@
-import React from 'react'
 import ProductList from '../components/ProductList'
 import Navbar from '../components/NavbarMenu'
 import './ProductListingPage.css'
