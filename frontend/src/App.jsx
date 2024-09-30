@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import ProductListingPage from './pages/ProductListingPage'
 import ProductDetailsPage from './pages/ProductDetailsPage'
 
@@ -43,6 +43,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Navigate to="/products" />} />
         <Route path="/products" element={<ProductListingPage products={products} />} />
         <Route path="/product/:productParam" element={<ProductDetailsPage products={products} />} />
         <Route path="*" element={<div>404 Not Found</div>} />
